@@ -32,15 +32,7 @@ public class Book {
     
     private Double price;
 
-    
-	/*
-	 * private Long authorId;
-	 * 
-	 * 
-	 * private String createdBy;
-	 */
-
-    
+   
     private String lastModifiedBy;
     
     //A book is written by only one author.
@@ -66,9 +58,6 @@ public class Book {
 		this.isbn = isbn;
 		this.publisherDate = publisherDate;
 		this.price = price;
-		/*
-		 * this.authorId = authorId; this.createdBy = createdBy;
-		 */
 		this.lastModifiedBy = lastModifiedBy;
 	}
 
@@ -118,18 +107,6 @@ public class Book {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-
-	/*
-	 * public Long getAuthorId() { return authorId; }
-	 * 
-	 * public void setAuthorId(Long authorId) { this.authorId = authorId; }
-	 */
-
-	/*
-	 * public String getCreatedBy() { return createdBy; }
-	 * 
-	 * public void setCreatedBy(String createdBy) { this.createdBy = createdBy; }
-	 */
 
 	public String getLastModifiedBy() {
 		return lastModifiedBy;

@@ -30,10 +30,6 @@ public class BookService {
 		Book book = new Book();
 		book.setTitle(bookDTO.getTitle());
 		book.setIsbn(bookDTO.getIsbn());
-		/*
-		 * book.setCreatedBy(bookDTO.getCreatedBy());
-		 * book.setAuthorId(bookDTO.getAuthorId());
-		 */
 		book.setLastModifiedBy(bookDTO.getLastModifiedBy());
 		book.setPublisherDate(bookDTO.getPublisherDate());
 		book.setPrice(bookDTO.getPrice());
@@ -45,10 +41,6 @@ public class BookService {
 		
 		oldBook.setTitle(bookDTO.getTitle());
 		oldBook.setIsbn(bookDTO.getIsbn());
-		/*
-		 * oldBook.setCreatedBy(bookDTO.getCreatedBy());
-		 * oldBook.setAuthorId(bookDTO.getAuthorId());
-		 */
 		oldBook.setLastModifiedBy(bookDTO.getLastModifiedBy());
 		oldBook.setPublisherDate(bookDTO.getPublisherDate());
 		oldBook.setPrice(bookDTO.getPrice());

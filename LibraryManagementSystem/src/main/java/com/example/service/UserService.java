@@ -35,8 +35,7 @@ public class UserService {
         user.setEmail(userDTO.getEmail());
         user.setRoles(userDTO.getRoles());
         user.setEnabled(userDTO.getEnabled());
-       // User savedUser = userRepository.save(user);
-        return userRepository.save(user);
+       return userRepository.save(user);
         
     }
 
@@ -67,8 +66,5 @@ public class UserService {
     }
 
     
-	/*
-	 * private UserDTO mapToDTO(User user) { return new UserDTO( user.getId(),
-	 * user.getUsername(), user.getEmail(), user.getRoles(), user.getEnabled() ); }
-	 */
+	
 }
